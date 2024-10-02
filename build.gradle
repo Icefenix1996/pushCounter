@@ -6,6 +6,9 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:8.0.2'  // Последняя стабильная версия Android Gradle Plugin
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0"  // Соответствующая версия Kotlin
+
+        // Добавляем Google Services
+        classpath 'com.google.gms:google-services:4.3.14'
     }
 }
 
@@ -14,4 +17,8 @@ allprojects {
         google()
         mavenCentral()
     }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966223580896",
+    "project_id": "push-up-counter-app-cb7c0",
+    "storage_bucket": "push-up-counter-app-cb7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966223580896:android:a893fbf129b45029404a85",
+        "android_client_info": {
+          "package_name": "com.example.pushcounter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZDBlHyVIgWZ68na-jhyc1G_lqk-_lmzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
